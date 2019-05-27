@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'rspec/collection_matchers'
+require 'rake'
 
 describe Book do
 
