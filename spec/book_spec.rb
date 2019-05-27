@@ -13,22 +13,23 @@ describe Book do
       end
 
       it "throws an ArgumentError when given fewer than 3 parameters" do
-        lambda { Book.new "Title", "Author" }.should raise_exception ArgumentError
+        # lambda { Book.new "Title", "Author" }.should raise_exception ArgumentError
+        expect { Book.new "Title", "Author" }.to raise_exception ArgumentError
       end
 
     describe "#title" do
       it "return the correct title" do
-        @book.title.should eql "Title"
+        expect(@book.title).to eq "Title"
       end
     end
     describe "#title" do
       it "return the correct author" do
-        @book.author.should eql "Author"
+        expect(@book.author).to eq "Author"
       end
     end
     describe "#title" do
       it "return the correct category" do
-        @book.category.should eql :category
+        expect(@book.category).to eq :category
       end
     end
     

@@ -40,7 +40,7 @@ end
   end
 
     it "returns all the books in a given category" do
-         expect(@lib.get_books_in_category(:fantasy).length).to eql 7
+        expect(@lib.get_books_in_category(:fantasy).length).to eql 7
         # @lib.get_books_in_category(:fantasy).expect(length).to eql (7)
     end
 
@@ -54,6 +54,6 @@ end
        @lib.save "our_new_library.yml"
        lib2 = Library.new "our_new_library.yml" 
        books2 = lib2.books.map { |book| book.title }
-       books.should eql books2
+       expect(books).to eql books2
     end
 end
