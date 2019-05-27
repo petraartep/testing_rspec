@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'rspec/collection_matchers'
 
 describe Book do
 
@@ -30,8 +31,6 @@ describe Book do
         @book.category.should eql :category
       end
     end
-
     
-
     end
 end

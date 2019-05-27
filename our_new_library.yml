@@ -1,0 +1,29 @@
+---
+- !ruby/object:Book
+  title: 'Harry Potter: The Sorcerer''s Stone'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Chambers of Secrets'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Prisoner of Azkaban'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Goblet Of Fire'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Order Of Phoenix'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Half-Blood Prince'
+  author: J. K. Rowling
+  category: :fantasy
+- !ruby/object:Book
+  title: 'Harry Potter: The Deathly Hallows'
+  author: J. K. Rowling
+  category: :fantasy
